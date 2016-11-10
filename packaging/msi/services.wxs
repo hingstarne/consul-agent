@@ -39,7 +39,7 @@
           <RegistryKey Key="Parameters">
             <RegistryValue Name="AppDirectory" Value="[INSTALLDIR]" Type="expandable" />
             <RegistryValue Name="Application" Value="[INSTALLDIR]consul.exe" Type="expandable" />
-            <RegistryValue Name="AppParameters" Value='agent "-config-file=[CONFIGDIR]consul.json." "-ui-dir=[INSTALLDIR]ui"' Type="expandable" />
+            <RegistryValue Name="AppParameters" Value='agent "-config-dir=[CONFIGDIR]." "-ui-dir=[INSTALLDIR]ui"' Type="expandable" />
 
             <RegistryValue Name="AppEnvironmentExtra" Type="multiString">
               <MultiStringValue>GOMAXPROCS=2</MultiStringValue>
